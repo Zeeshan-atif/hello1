@@ -1,8 +1,7 @@
-﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using hello1;
 
-namespace hello1Test
+namespace hello11Test
 {
     [TestClass]
     public class UnitTest1
@@ -13,7 +12,6 @@ namespace hello1Test
             string expected = Program.creatMessage();
             string actual = "Hello World";
             Assert.AreEqual(actual, expected);
-            
         }
     }
 }
