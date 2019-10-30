@@ -2,11 +2,15 @@
 
 namespace hello1
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(creatMessage());
+        }
+        public static string creatMessage()
+        {
+            return "Hello World";
         }
     }
 }
